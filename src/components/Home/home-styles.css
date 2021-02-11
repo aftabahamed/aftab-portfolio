@@ -1,0 +1,36 @@
+.homeContainerWrapper {
+    padding: 100px 0px;
+}
+.homeLeftWrapper h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+}
+.homeLeftWrapper p {
+    color: #949495;
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 32px;
+}
+.homeLeftWrapper {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+}
+.profilePic img {
+    max-width: 50px;
+}
+.profilePic {
+    overflow: hidden;
+    border-radius: 50%;
+}
+.socialWrapper {
+    margin-top: 32px;
+}
+.socialWrapper > div {
+    margin-right: 25px;
+}
+.socialWrapper > div > span {
+    margin-left: 10px;
+    font-size: 14px;
+}
